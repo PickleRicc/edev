@@ -6,7 +6,7 @@ export default function Home() {
     <main className="relative">
       <Navigation />
       
-      {/* Hero Section */}
+      {/* Hero Section1 */}
       <section id="home" className="min-h-screen flex items-center justify-center px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
