@@ -51,7 +51,7 @@ export default function Home() {
               Today, I channel my competitive spirit into building cutting-edge applications at the
               intersection of Business, Artificial Intelligence, and Web Development. My focus is on
               creating intuitive, powerful tools that leverage the latest in AI technology to solve
-              real-world problems.
+              real-world problems!
             </p>
             <div className="flex flex-wrap gap-4 justify-center mt-8">
               <span className="px-4 py-2 bg-[var(--primary)]/10 text-[var(--primary)] rounded-full">Business Strategy</span>
