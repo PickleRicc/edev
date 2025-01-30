@@ -1,5 +1,5 @@
-import Navigation from '../Components/Navigation'
-import ProjectCard from '../Components/ProjectCard'
+import Navigation from '../components/Navigation'
+import ProjectCard from '../components/ProjectCard'
 
 export default function Home() {
   return (

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Image from 'next/image';
-import ImageModal from './ImageModal';
+import ImageModal from '../ImageModal';
 
 const ProjectCard = ({ title, description, tools, images, link }) => {
   const [currentImage, setCurrentImage] = useState(0);
