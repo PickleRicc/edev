@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #9eff00;
+  --secondary: #ff6b6b;
+  --background: #121212;
+  --surface: #1e1e1e;
+}
+
+@layer base {
+  body {
+    @apply bg-[var(--background)] text-white;
+  }
+}
+
+@layer components {
+  .highlight {
+    @apply text-[var(--primary)];
+  }
+  
+  .card {
+    @apply bg-[var(--surface)] rounded-2xl p-6 transition-all duration-300 hover:scale-[1.02];
+  }
+  
+  .button {
+    @apply px-6 py-3 rounded-full bg-[var(--primary)] text-black font-semibold 
+    transition-all duration-300 hover:bg-opacity-90 hover:scale-[1.02];
+  }
+}
